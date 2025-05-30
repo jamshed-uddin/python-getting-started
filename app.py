@@ -15,36 +15,51 @@ is_active = True
 str = 'hello'
 
 # get the length
-print(len(str))
+# print(len(str))
 
 # get certain character
 
-print(str[1])
-print(str[-1])
-print(str[0:3])
-print(str[0:])
-print(str[:3])
-print(str[:])
+# print(str[1])
+# print(str[-1])
+# print(str[0:3])
+# print(str[0:])
+# print(str[:3])
+# print(str[:])
 
 # escape sequence
-print('hello \nworld')
+# print('hello \nworld')
 
 # formated string
 first = 'John'
 last = 'Doe'
 
-print(f"{first} {last}")
+# print(f"{first} {last}")
 
 # string methods ------
 
 newStr = 'string methods  '
 
-print(newStr.upper())
+# print(newStr.upper())
 
-print(newStr.find('r'))
+# print(newStr.find('r'))
 
 
-print(newStr.replace('t', 'r'))
+# print(newStr.replace('t', 'r'))
 
-print('str' in newStr)
-print('hello' not in newStr)
+# print('str' in newStr)
+# print('hello' not in newStr)
+
+a, b = 3, 4
+
+# print(a, b)
+
+one = 1
+two = 2
+hello = 'hello'
+
+# print(one+two+hello)
+
+myStr = 'hello'
+
+if myStr == 'hello':
+    print('String' + myStr)
